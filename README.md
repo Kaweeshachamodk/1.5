@@ -76,7 +76,7 @@ the user is responsible.
 [![Run on Repl.it](https://repl.it/badge/github/TOXIC-DEVIL/WhatsAsenaPublic)](https://replit.com/@TOXICDEVIL/WhatsAsena-QR)
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chamidu12345/WhatsAsenaPublic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chamidu12345/DaTa-Lover-)
 
 ### The Hard Method
 ``` js
