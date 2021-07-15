@@ -35,7 +35,6 @@ if (Config.WORKTYPE == 'private') {
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Made By😙 ◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░*' })
-     }*' })
      }
     }));
 
