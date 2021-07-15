@@ -27,14 +27,15 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey I'm DaTa Lover Bot 😙```\n\n*Version:* ```1.0 Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```CHAMIDU PRASANNA```\n\n```Thank You For Using DaTa Lover 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```ℋℐ✿ ℐ,ℳ★~ ⅅᎯTᎯ ℒᎾᏉℰℛ👁️ 👁️  ℬᎾT```\n\n*Version:* ```1.0 Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```░▒▓█►─═ Ćн𝕒𝐌Ꭵ∂ⓤ 𝔭Ř𝕒𝔰𝕒ｎｎ𝕒 ( ▼o▼)o┳-```\n\n```(✿❛‿❛)▄ ┻┳TℋᎯℕᏦЅ  ★~ᎽᎾUℛ ℱᎾℛ✿ UЅℐℕᎶ ╠♥💕♥╣◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░```"})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Made By😙 DaTa Lover*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Made By😙 ◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░*' })
+     }*' })
      }
     }));
 
@@ -59,14 +60,14 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey  I'm DaTa Lover Bot  😙```\n\n*Version:* ```1.0 Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```CHAMIDU PRASANNA```\n\n```Thank You For Using DaTa Lover 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```ℋℐ✿ ℐ,ℳ★~ ⅅᎯTᎯ ℒᎾᏉℰℛ👁️ 👁️  ℬᎾT```\n\n*Version:* ```1.0 Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```░▒▓█►─═ Ćн𝕒𝐌Ꭵ∂ⓤ 𝔭Ř𝕒𝔰𝕒ｎｎ𝕒 ( ▼o▼)o┳-```\n\n```(✿❛‿❛)▄ ┻┳TℋᎯℕᏦЅ  ★~ᎽᎾUℛ ℱᎾℛ✿ UЅℐℕᎶ ╠♥💕♥╣◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░```"})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Made By😙 DaTa Lover*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Made By😙 ◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░*' })
      }
     }));
 
