@@ -49,7 +49,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'● *DaTa Lover Private By Chamidu Prasanna* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● *◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░ 𝔭ŕเ𝐯ᗩ𝓽ⓔ ｂ𝐲 ░▒▓█►─═ Ćн𝕒𝐌Ꭵ∂ⓤ 𝔭Ř𝕒𝔰𝕒ｎｎ𝕒 ( ▼o▼)o┳-* ●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -85,7 +85,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'● *DaTa Lover Private By Chamidu Prasanna* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● *◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░ 𝔭ŕเ𝐯ᗩ𝓽ⓔ ｂ𝐲 ░▒▓█►─═ Ćн𝕒𝐌Ꭵ∂ⓤ 𝔭Ř𝕒𝔰𝕒ｎｎ𝕒 ( ▼o▼)o┳-* ●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
@@ -126,7 +126,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'● *DaTa Lover Private By Chamidu Prasanna* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● *◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░ 𝔭ŕเ𝐯ᗩ𝓽ⓔ ｂ𝐲 ░▒▓█►─═ Ćн𝕒𝐌Ꭵ∂ⓤ 𝔭Ř𝕒𝔰𝕒ｎｎ𝕒 ( ▼o▼)o┳-* ●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -162,7 +162,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'● *DaTa Lover Private By Chamidu Prasanna* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● *◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░ 𝔭ŕเ𝐯ᗩ𝓽ⓔ ｂ𝐲 ░▒▓█►─═ Ćн𝕒𝐌Ꭵ∂ⓤ 𝔭Ř𝕒𝔰𝕒ｎｎ𝕒 ( ▼o▼)o┳-* ●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
