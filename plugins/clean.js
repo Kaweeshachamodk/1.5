@@ -19,5 +19,5 @@ Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList:
 
     await message.sendMessage('```Chat clearing...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```🚮 Chat සාර්ථකව මකා දමා ඇත```');
+    await message.sendMessage('```🚮 පනිවිඩ සියල්ල සාර්ථකව මකා දමා ඇත```');
 }));
