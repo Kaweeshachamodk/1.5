@@ -11,7 +11,7 @@
     <
 </p>
 
-[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)]repli(https://cutle.io/1aM7Pd)
+[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)]repli(https://replit.com/@lasindu123/XTROID)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chamidu12345/DaTa-Lover-)
 
