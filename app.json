@@ -89,9 +89,9 @@
             "value": "default"
         },
         "ALIVE_LOGO": {
-            "description": "Customizable Alive Logo! Use => https://images.unsplash.com/photo-1579117517382-78401a144da5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60.jpg, to change back.",
+            "description": "Customizable Alive Logo! Use => https://images.unsplash.com/photo-1579117517382-78401a144da5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60, to change back.",
             "required": true,
-            "value": "https://images.unsplash.com/photo-1579117517382-78401a144da5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60.jpg"
+            "value": "https://images.unsplash.com/photo-1579117517382-78401a144da5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
