@@ -216,7 +216,7 @@
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
             "AFTER_UPDATE": "*💬 Chami DaTa Lover Restarting Automatically!*"
         },
-        "info": {
+        "whois": {
             "PL_DESC": "Displays metadata data of group or person.",
             "SUB": "*Group Name:* ",
             "DES": "*Group Description:* ",
