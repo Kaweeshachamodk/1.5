@@ -7,7 +7,7 @@ const {execFile} = require('child_process');
 const CON = require('../config');
 
 const Language = require('../language'); 
-const Lang = Language.getString('info'); // Language Support
+const Lang = Language.getString('whois'); // Language Support
 
 if (CON.WORKTYPE == 'private') {
 
@@ -20,14 +20,14 @@ if (CON.WORKTYPE == 'private') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg =  Lang.SUB + `${nwjson.subject} \n\n`  + `*Grup ID:* ${json.id} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
 
             await message.sendMessage(
-                Buffer(resim.data), 
+                Buffer.from(resim.data), 
                 MessageType.image, 
                 { caption: msg }
             );
@@ -39,7 +39,7 @@ if (CON.WORKTYPE == 'private') {
             const nwmsg = Lang.JİD + `${usexists.jid} \n` + Lang.ST + `${status.status}`
             const resimnw = await Axios.get(usppUrl, {responseType: 'arraybuffer'})
             await message.sendMessage(
-                Buffer(resimnw.data), 
+                Buffer.from(resimnw.data), 
                 MessageType.image, 
                 { caption: nwmsg }
             );
@@ -57,14 +57,14 @@ else if (CON.WORKTYPE == 'public') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg =  Lang.SUB + `${nwjson.subject} \n\n`  + `*Grup ID:* ${json.id} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
 
             await message.sendMessage(
-                Buffer(resim.data), 
+                Buffer.from(resim.data), 
                 MessageType.image, 
                 { caption: msg }
             );
@@ -76,7 +76,7 @@ else if (CON.WORKTYPE == 'public') {
             const nwmsg = Lang.JİD + `${usexists.jid} \n` + Lang.ST + `${status.status}`
             const resimnw = await Axios.get(usppUrl, {responseType: 'arraybuffer'})
             await message.sendMessage(
-                Buffer(resimnw.data), 
+                Buffer.from(resimnw.data), 
                 MessageType.image, 
                 { caption: nwmsg }
             );
@@ -91,14 +91,14 @@ else if (CON.WORKTYPE == 'public') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg =  Lang.SUB + `${nwjson.subject} \n\n`  + `*Grup ID:* ${json.id} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
 
             await message.sendMessage(
-                Buffer(resim.data), 
+                Buffer.from(resim.data), 
                 MessageType.image, 
                 { caption: msg }
             );
@@ -110,7 +110,7 @@ else if (CON.WORKTYPE == 'public') {
             const nwmsg = Lang.JİD + `${usexists.jid} \n` + Lang.ST + `${status.status}`
             const resimnw = await Axios.get(usppUrl, {responseType: 'arraybuffer'})
             await message.sendMessage(
-                Buffer(resimnw.data), 
+                Buffer.from(resimnw.data), 
                 MessageType.image, 
                 { caption: nwmsg }
             );
