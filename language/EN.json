@@ -216,6 +216,15 @@
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
             "AFTER_UPDATE": "*💬 Chami DaTa Lover Restarting Automatically!*"
         },
+        "info": {
+            "PL_DESC": "Displays metadata data of group or person.",
+            "SUB": "*Group Name:* ",
+            "DES": "*Group Description:* ",
+            "OWN": "*Founder:* ",
+            "COD": "*Unique Group Code:* ",
+            "JİD": "*Person JID:* ",
+            "ST": "*Person Status:* "
+        },
         "weather": {
             "WEATHER_DESC": "කාලගුණය පෙන්වයි.",
             "NEED_LOCATION": "*කරුණාකර ස්ථානයක් ලියන්න!*\n*Example:* ```.weather Colombo```",
