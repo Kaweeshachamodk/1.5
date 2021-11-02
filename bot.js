@@ -1,8 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 WhatsAsena - Yusuf Usta
 */
 
@@ -78,7 +76,7 @@ async function whatsAsena () {
     
     const conn = new WAConnection();
     const Session = new StringSession();
-    conn.version = [2, 2119, 6]
+    conn.version = [2, 2140, 12]
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
@@ -106,7 +104,6 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     });
     
